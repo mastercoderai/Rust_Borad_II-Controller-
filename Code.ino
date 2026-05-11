@@ -5,7 +5,6 @@
 #include <Wire.h>
 
 // I am using 'U8G2' library for the OLED display.
-U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE); 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, /* clock*/ 22, /* data*/ 21);
 
 // 'NimBLE-Arduino' library by 'h2zero'
