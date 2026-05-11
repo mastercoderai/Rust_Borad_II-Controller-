@@ -12,7 +12,7 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, /* clock*/ 22, 
 // You can change the *Device name, and *Manufacturer name as per your requirment.
 // I have used these 'names' because steam has built in configuration for xbox controllers
 // {*changing the names should not affect the performance of the controller*}
-BleGamepad bleGamepad("Xbox Wireless Controller", "Microsoft", 100);
+BleGamepad bleGamepad(/*Device name*/"Xbox Wireless Controller", /*Manufacturer*/"Microsoft", /*battery percentage*/100);
 
 // Pin Definitions
 const int JOY_L_X = 33;
