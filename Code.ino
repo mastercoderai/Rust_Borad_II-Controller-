@@ -8,7 +8,7 @@
 // GPIO 22 is the default esp32 I2C peripheral clock pin.
 // GPIO 21 is the default esp32 T2C pheripheral data pin.
 // If you are usign these pins, you can avoid mentioning them in the code.
-U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, /* clock*/ 22, /* data*/ 21);
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* clock*/ 22, /* data*/ 21, U8X8_PIN_NONE);
 
 // 'NimBLE-Arduino' library by 'h2zero'
 // You can change the *Device name, and *Manufacturer name as per your requirment.
