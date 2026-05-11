@@ -9,6 +9,9 @@ U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE);
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE, /* clock*/ 22, /* data*/ 21);
 
 // 'NimBLE-Arduino' library by 'h2zero'
+// You can change the *Device name, and *Manufacturer name as per your requirment.
+// I have used these 'names' because steam has built in configuration for xbox controllers
+// {*changing the names should not affect the performance of the controller*}
 BleGamepad bleGamepad("Xbox Wireless Controller", "Microsoft", 100);
 
 // Pin Definitions
